@@ -49,7 +49,7 @@ div.addify_converty_to_order_button button{
 #dropdown{
 	min-width: 280px !important;
 	display: none;
-	background-color: #9CAF88;
+	background-color: #f0f0f0;
 	position: absolute;
 	top:100%;
 	right: -20%;
@@ -86,10 +86,10 @@ div.addify_converty_to_order_button button{
 
 #view-quote {
 	    text-align: center;
-    background-color: #9CAF88;
+    background-color: #1a1a1a;
     color: white;
     border-radius: unset;
-    border: 1px solid #9CAF88;
+    border: 1px solid #1a1a1a;
     font-size: 13px;
     line-height: 22px;
     font-weight: bold;
@@ -150,15 +150,15 @@ ul li#quote-li{
 	width: auto;
 }
 
-.qrow{ padding-top: 5px; padding-bottom: 5px; border-bottom: solid 1px #9CAF88;}
+.qrow{ padding-top: 5px; padding-bottom: 5px; border-bottom: solid 1px #ccc;}
 
 .view-quote-row{ margin-top: 15px !important;}
 
 .loader{ display: none;}
 
 .loader {
-	border: 10px solid #9CAF88; /* Light grey */
-	border-top: 16px solid #9CAF88; /* Blue */
+	border: 10px solid #f3f3f3; /* Light grey */
+	border-top: 16px solid #3498db; /* Blue */
 	border-radius: 50%;
 	width: 20px;
 	height: 20px;
@@ -264,7 +264,7 @@ display: none;
 	line-height: inherit;
 	vertical-align: baseline;
 	content: "\f019";
-	margin-left: 0.+27 81 234 5678em;
+	margin-left: 0.5407911001em;
 }
 
 .quote_details div.wc-order-item-sku{
@@ -335,7 +335,7 @@ div.af_quote_fields{
 		background: none !important;
 	}
 	table.quote-fields tr{
-		border-bottom: 1px solid #9CAF88;
+		border-bottom: 1px solid #f2f2f2;
 	}
 	
 }
@@ -361,7 +361,7 @@ div.af_quote_fields textarea {
 	z-index: 5000;
 	max-width: 260px;
 	display: none;
-	background-color: #FFFFFF !important;
+	background-color: #fff !important;
 	box-shadow: 0rem 0rem 1.25rem rgba(30, 34, 40, 0.06);	
 	border-radius: 5px;
 	padding-bottom: 15px;
@@ -414,7 +414,7 @@ div.af_quote_fields textarea {
 .mini-quote-dropdown li.addify-rfq-mini-cart-item:hover,
 .mini-quote-dropdown li.addify-rfq-mini-cart-item:active,
 .mini-quote-dropdown li.addify-rfq-mini-cart-item:focus{
-	background-color: #9CAF88;
+	background-color: #f9fbfc;
 }
 
 .arfq-pro-thumbnail img{
@@ -446,7 +446,7 @@ div.af_quote_fields textarea {
 .mini-quote-dropdown li a.quote-remove:hover{
 	opacity: 1;
 	background-color: transparent !important;
-	color: #9CAF88;
+	color: #01b3a5;
 }
 
 .mini-quote-dropdown .arfq-pro-detail{
@@ -457,7 +457,7 @@ div.af_quote_fields textarea {
 	font-size: 13px;
     margin-top: 3px;
     line-height: 20px;
-    color: #9CAF88;
+    color: #000;
 }
 
 .arfq-pro-qty{
@@ -524,8 +524,8 @@ table.my_account_quotes form.quote-convert-to-order{
  
 
 	padding: 9px;
-	background: #9CAF88;
-	color: #9CAF88;
+	background: #eeeeee;
+	color: #333333;
 	
 }
 .adf-product-remove a{

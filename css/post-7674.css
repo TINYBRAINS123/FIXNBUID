@@ -26,7 +26,7 @@
     flex-basis: 40%;
     margin-left: 0% !important;
     padding: 40px;
-    border: 1px solid #9CAF88;
+    border: 1px solid #999;
 }
 .ywraq-form-table-wrapper.wide form#yith-ywraq-form {
     flex-basis: 60% !important;
@@ -40,8 +40,8 @@
     font-weight: bold;
     border-radius: 5px;
     left: auto;
-    color: #FFFFFF;
-    background-color: #9CAF88;
+    color: #fff;
+    background-color: #0054AA;
 }
 
 .ptable h3 {
@@ -53,7 +53,7 @@
     padding: 10px;
     line-height: 1.2em;
     vertical-align: middle;
-    border: 1px solid #9CAF88;
+    border: 1px solid #ccc;
 }
 
 #yith-ywraq-form .update-list-wrapper input[type="submit"] {
@@ -73,7 +73,7 @@
 #yith-ywraq-form table {
     margin-top: 10px;
     margin-bottom: 10px;
-    border-right: 1px solid #9CAF88;
+    border-right: 1px solid #999;
     border-left: 0px;
     border-top: 0px;
     border-bottom: 0px;
@@ -86,8 +86,8 @@
     line-height: 1.2em;
     border-top: 0px;
     border-right: 0px;
-    border-left: 1px solid #9CAF88;
-    border-bottom: 1px solid #9CAF88;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
 }
 
 .ptable .woocommerce table.shop_table th {
@@ -95,19 +95,19 @@
     padding: 0px 12px;
     line-height: 0.1em;
     font-size: 16px;
-    color: #9CAF88;
-    border-top: 1px solid #9CAF88;
+    color: #222;
+    border-top: 1px solid #999;
     border-right: 0px;
-    border-left: 1px solid #9CAF88;
-    border-bottom: 1px solid #9CAF88;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
 }
 
 .ywraq-form-table-wrapper .yith-ywraq-mail-form-wrapper {
     padding: 25px;
-    border: 1px solid #9CAF88;
+    border: 1px solid #999;
     margin-top: 40px;
 }
 
 .ptable table tbody tr > td, table tbody tr > th {
-    background-color: #FFFFFF;
+    background-color: #fff;
 }/* End custom CSS */
