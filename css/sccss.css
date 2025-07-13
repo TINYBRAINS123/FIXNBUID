@@ -1,0 +1,84 @@
+/* Overflow Hotfix */
+html {
+	overflow-x:hidden; 
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+.grecaptcha-badge { 
+    visibility: hidden;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: right 15px top 1.3em, right 10px top 1.3em;
+  background-size: 5px 5px, 5px 5px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: unset;
+    margin: 0;
+    font: inherit;
+    color: #9CAF88 !important;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #9CAF88 !important;
+    border-radius: 50% !important;
+    display: inline-grid;
+    place-content: center;
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em #9CAF88;
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: unset;
+    margin: 0 5px 0 0 !important;
+    font: inherit;
+    color: #9CAF88 !important;
+    width: 20px;
+    height: 20px;
+    border: 1px Solid #9CAF88 !important;
+    border-radius: 3px !important;
+    transform: translateY(-0.075em);
+    display: inline-grid !important;
+    place-content: center;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.75em;
+    height: 0.75em;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: center center;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em #9CAF88 !important;
+    background-color: #9CAF88;
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}

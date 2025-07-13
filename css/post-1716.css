@@ -1,0 +1,113 @@
+.elementor-1716 .elementor-element.elementor-element-a2dd2a1{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;--justify-content:flex-start;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}.elementor-widget-text-editor{color:var( --e-global-color-text );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:var( --e-global-color-primary );}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap{color:var( --e-global-color-primary );border-color:var( --e-global-color-primary );}.elementor-1716 .elementor-element.elementor-element-37e8fa1{margin:0px 0px calc(var(--kit-widget-spacing, 0px) + 0px) 0px;padding:0px 0px 0px 0px;}#elementor-popup-modal-1716 .dialog-widget-content{animation-duration:0.5s;background-color:var( --e-global-color-719e50a );border-style:solid;border-width:0px 0px 0px 1px;border-color:var( --e-global-color-8be0be0 );margin:0px 0px 0px 0px;}#elementor-popup-modal-1716{background-color:#9CAF8880;justify-content:flex-end;align-items:flex-start;pointer-events:all;}#elementor-popup-modal-1716 .dialog-message{width:600px;height:100vh;align-items:flex-start;padding:40px 40px 40px 40px;}#elementor-popup-modal-1716 .dialog-close-button{display:flex;top:20px;font-size:18px;}body:not(.rtl) #elementor-popup-modal-1716 .dialog-close-button{right:20px;}body.rtl #elementor-popup-modal-1716 .dialog-close-button{left:20px;}#elementor-popup-modal-1716 .dialog-close-button i{color:var( --e-global-color-text );}#elementor-popup-modal-1716 .dialog-close-button svg{fill:var( --e-global-color-text );}#elementor-popup-modal-1716 .dialog-close-button:hover i{color:var( --e-global-color-primary );}@media(max-width:1024px){.elementor-widget-text-editor{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}}@media(max-width:767px){.elementor-widget-text-editor{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );}#elementor-popup-modal-1716 .dialog-message{padding:20px 20px 20px 20px;}}/* Start custom CSS for text-editor, class: .elementor-element-37e8fa1 */#yith-ywraq-form table.cart .product-thumbnail {
+    display: table-cell;
+    width: 120px;
+    padding: 10px;
+}
+
+.ptable ul, menu, dir {
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    margin-top: 10px !important;
+    line-height: 0.7em;
+}
+
+.ptable ul {
+    margin-left: 0px !important;
+}
+
+.woocommerce table.shop_table td {
+    line-height: 1.2em;
+}
+.ywraq-form-table-wrapper.wide .yith-ywraq-mail-form-wrapper {
+    flex-basis: 40%;
+    margin-left: 0% !important;
+    padding: 40px;
+    border: 1px solid #9CAF88;
+}
+.ywraq-form-table-wrapper.wide form#yith-ywraq-form {
+    flex-basis: 60% !important;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    font-size: 14px;
+    margin: 0;
+    line-height: 1;
+    padding: 14px 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    left: auto;
+    color: #FFFFFF;
+    background-color: #9CAF88;
+}
+
+.ptable h3 {
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+.ptable table td, table th {
+    padding: 10px;
+    line-height: 1.2em;
+    vertical-align: middle;
+    border: 1px solid #9CAF88;
+}
+
+#yith-ywraq-form .update-list-wrapper input[type="submit"] {
+    margin-top: 10px !important;
+}
+
+#yith-ywraq-form .update-list-wrapper {
+    margin-bottom: 0px;
+        display: inline-block;
+}
+
+.ptable .woocommerce form .form-row label {
+    line-height: 1em;
+    display: none;
+}
+
+#yith-ywraq-form table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-right: 1px solid #9CAF88;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-radius: 0px;
+}
+
+.ptable .woocommerce table.shop_table td {
+    padding: 9px 12px;
+    vertical-align: middle;
+    line-height: 1.2em;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 1px solid #9CAF88;
+    border-bottom: 1px solid #9CAF88;
+}
+
+.ptable .woocommerce table.shop_table th {
+    font-weight: bold;
+    padding: 0px 12px;
+    line-height: 0.1em;
+    font-size: 16px;
+    color: #9CAF88;
+    border-top: 1px solid #9CAF88;
+    border-right: 0px;
+    border-left: 1px solid #9CAF88;
+    border-bottom: 1px solid #9CAF88;
+}
+
+.ywraq-form-table-wrapper .yith-ywraq-mail-form-wrapper {
+    padding: 25px;
+    border: 1px solid #9CAF88;
+    margin-top: 40px;
+}
+
+.ptable table tbody tr > td, table tbody tr > th {
+    background-color: #FFFFFF;
+}/* End custom CSS */
